@@ -1,1 +1,13 @@
+# Core dependencies
 watchdog>=4.0.0
+
+# Gmail API (for gmail_watcher.py)
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.1.0
+
+# Optional: Browser automation (for LinkedIn posting)
+playwright>=1.40.0
+
+# Optional: MCP servers
+requests>=2.31.0

@@ -54,6 +54,7 @@ credentials.json
 token.json
 *.key
 *.pem
+credentials/
 
 # Session data
 session/

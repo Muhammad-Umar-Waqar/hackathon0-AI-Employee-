@@ -130,5 +130,10 @@ if __name__ == '__main__':
     import sys
 
     # Get vault path from command line or use default
-    vault_path = sys.argv[1] if len(sys.argv) > 1 else './AI_Employee_Vault'
-    run_watcher(vault_path)
+    if len(sys.argv) > 1:
+        vault_path = sys.argv[1]
+    else:
+        # Use absolute path - parent directory of this script
+        vault_path = Path(__file__).parent.absolute()
+    
+    run_watcher(str(vault_path))
