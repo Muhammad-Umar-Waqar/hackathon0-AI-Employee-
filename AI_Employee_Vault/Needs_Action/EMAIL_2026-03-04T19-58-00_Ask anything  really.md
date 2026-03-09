@@ -23,79 +23,152 @@ An important email has been received and needs processing.
 
 ### Email Content
 ```
-<!DOCTYPE html>
-<html dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css">
-  /**
-   * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
-   */
-  @media screen {
-    /* OpenAI Sans font family */
-    @font-face {
-      font-display: swap;
-      font-family: "OpenAI Sans";
-      font-style: normal;
-      font-weight: 400;
-      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Regular.woff2") format("woff2");
-    }
-
-    @font-face {
-      font-display: swap;
-      font-family: "OpenAI Sans";
-      font-style: normal;
-      font-weight: 500;
-      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Medium.woff2") format("woff2");
-    }
-
-    @font-face {
-      font-display: swap;
-      font-family: "OpenAI Sans";
-      font-style: normal;
-      font-weight: 600;
-      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Semibold.woff2") format("woff2");
-    }
-
-    @font-face {
-      font-display: swap;
-      font-family: "OpenAI Sans";
-      font-style: normal;
-      font-weight: 700;
-      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Bold.woff2") format("woff2");
-    }
-  }
-
-  /**
-   * Avoid browser level font resizing.
-   * 1. Windows Mobile
-   * 2. iOS / OSX
-   */
-  body,
-  table,
-  td,
-  a {
-    -ms-text-size-adjust: 100%; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    font-family: 'OpenAI Sans', Helvetica, Arial, sans-serif;
-  }
-
-  /**
-   * Remove extra space added to tables and cells in Outlook.
-   */
-  table,
-  td {
-    mso-table-rspace: 0pt;
-    mso-table-lspace: 0pt;
-    vertical-align: top; /* Align content to the top of table cells */
-  }
-
-  /**
-   * Better fluid images in Internet Explorer.
-   */
+<!DOCTYPE html>
+
+<html dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style type="text/css">
+
+  /**
+
+   * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
+
+   */
+
+  @media screen {
+
+    /* OpenAI Sans font family */
+
+    @font-face {
+
+      font-display: swap;
+
+      font-family: "OpenAI Sans";
+
+      font-style: normal;
+
+      font-weight: 400;
+
+      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Regular.woff2") format("woff2");
+
+    }
+
+
+
+    @font-face {
+
+      font-display: swap;
+
+      font-family: "OpenAI Sans";
+
+      font-style: normal;
+
+      font-weight: 500;
+
+      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Medium.woff2") format("woff2");
+
+    }
+
+
+
+    @font-face {
+
+      font-display: swap;
+
+      font-family: "OpenAI Sans";
+
+      font-style: normal;
+
+      font-weight: 600;
+
+      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Semibold.woff2") format("woff2");
+
+    }
+
+
+
+    @font-face {
+
+      font-display: swap;
+
+      font-family: "OpenAI Sans";
+
+      font-style: normal;
+
+      font-weight: 700;
+
+      src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Bold.woff2") format("woff2");
+
+    }
+
+  }
+
+
+
+  /**
+
+   * Avoid browser level font resizing.
+
+   * 1. Windows Mobile
+
+   * 2. iOS / OSX
+
+   */
+
+  body,
+
+  table,
+
+  td,
+
+  a {
+
+    -ms-text-size-adjust: 100%; /* 1 */
+
+    -webkit-text-size-adjust: 100%; /* 2 */
+
+    font-family: 'OpenAI Sans', Helvetica, Arial, sans-serif;
+
+  }
+
+
+
+  /**
+
+   * Remove extra space added to tables and cells in Outlook.
+
+   */
+
+  table,
+
+  td {
+
+    mso-table-rspace: 0pt;
+
+    mso-table-lspace: 0pt;
+
+    vertical-align: top; /* Align content to the top of table cells */
+
+  }
+
+
+
+  /**
+
+   * Better fluid images in Internet Explorer.
+
+   */
+
 ```
 
 ### Suggested Actions
